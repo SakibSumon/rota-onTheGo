@@ -1,3 +1,51 @@
 [
-  
+  {
+    "date": "SAT 28 MAR",
+    "start": "7:00",
+    "end": "15:00",
+    "role": "Team Member Kitchen",
+    "location": "Southbank Place"
+  },
+  {
+    "date": "MON 30 MAR",
+    "start": "5:30",
+    "end": "14:00",
+    "role": "Team Member Kitchen",
+    "location": "Southbank Place"
+  },
+  {
+    "date": "TUE 31 MAR",
+    "start": "5:30",
+    "end": "14:00",
+    "role": "Team Member Kitchen",
+    "location": "Southbank Place"
+  },
+  {
+    "date": "WED 1 APR",
+    "start": "5:30",
+    "end": "14:00",
+    "role": "Team Member Kitchen",
+    "location": "Southbank Place"
+  },
+  {
+    "date": "THU 2 APR",
+    "start": "5:30",
+    "end": "15:00",
+    "role": "Team Member Kitchen",
+    "location": "Southbank Place"
+  },
+  {
+    "date": "FRI 3 APR",
+    "start": "5:30",
+    "end": "14:00",
+    "role": "Team Member Kitchen",
+    "location": "Southbank Place"
+  },
+  {
+    "date": "SAT 4 APR",
+    "start": "7:00",
+    "end": "15:00",
+    "role": "Team Member Kitchen",
+    "location": "Southbank Place"
+  }
 ]
