@@ -8,9 +8,14 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds],
 });
 
+// async function sendMessage(message) {
+//   const channel = await client.channels.fetch(process.env.CHANNEL_ID);
+//   await channel.send(message);
+// }
+
 async function sendMessage(message) {
-  const channel = await client.channels.fetch(process.env.CHANNEL_ID);
-  await channel.send(message);
+  const user = await client.users.fetch(process.env.DISCORD_USER_ID);
+  await user.send(message);
 }
 
 function formatShifts(shifts) {
