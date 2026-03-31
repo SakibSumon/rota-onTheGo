@@ -1,23 +1,31 @@
-📅 Rota Notification Bot
+# 📅 Rota Notification Bot
 
-A lightweight backend service that automatically checks rota schedules and sends notifications. Designed to run reliably in cloud environments like Railway.
+A lightweight backend service that automatically checks rota schedules and sends notifications. Built for reliability in cloud environments like Railway.
 
-🚀 Features
-Automated rota checking
-Scheduled background execution
-Multi-user architecture (Planned)
-Cloud deployment support (Railway)
-Headless browser automation using Puppeteer
-Error logging and monitoring
+---
 
-🛠️ Tech Stack
-Node.js
-Puppeteer / puppeteer-core
-Express (optional API layer)
-Cron jobs (node-cron / custom scheduler)
-Deployment: Railway
+## 🚀 Features
 
-📂 Project Structure
+- Automated rota checking  
+- Scheduled background execution  
+- Cloud-ready deployment (Railway)  
+- Headless browser automation (Puppeteer)  
+- Error logging and monitoring  
+- Scalable architecture (multi-user ready)
+
+---
+
+## 🛠️ Tech Stack
+
+- Node.js  
+- Puppeteer / puppeteer-core  
+- Express (optional)  
+- node-cron (or custom scheduler)  
+
+---
+
+## 📂 Project Structure
+
 backend/
 ├── src/
 │   ├── services/       # Rota scraping logic
@@ -27,3 +35,13 @@ backend/
 ├── .env
 ├── package.json
 └── README.md
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/rota-bot.git
+cd rota-bot/backend
